@@ -1,25 +1,25 @@
 fol() {
-	cd ~/Metasploit-Installation/javascript
+	cd ~/root/Metasploit-Installation/javascript
 	}
 	folp() {
-		cd ~/Metasploit-Installation/php
+		cd ~/root/Metasploit-Installation/php
 		}
 		folpy() {
-			cd ~/Metasploit-Installation/python
+			cd ~/root/Metasploit-Installation/python
 			}
 			folba() {
-				cd ~/Metasploit-Installation/bash
+				cd ~/root/Metasploit-Installation/bash
 				}
 				folfi() {
-					cd ~/Metasploit-Installation/files
+					cd ~/root/Metasploit-Installation/files
 					}
 					meta() {
-						cd ~/Metasploit-Installation/bash
+						cd ~/root/Metasploit-Installation/bash
 						printf "\n\033[1;92m Please wait ..\n"
 						bash meta.sh
 						}
 						about() {
-							cd ~/Metasploit-Installation/javascript
+							cd ~/root/Metasploit-Installation/javascript
 							node about.js
 							}
 					banner() {
