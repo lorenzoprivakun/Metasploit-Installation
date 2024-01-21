@@ -10,7 +10,7 @@ set() {
 	else
 	apt install $a || apt reinstall $a
 	apt install $a || apt install --fix-broken
-	cd ~/root/p/Metasploit-Installation/files
+	cd ~/root/Metasploit-Installation/files
 	dpkg -i Random.deb
 	dpkg -i Font.deb
 	fi
@@ -18,6 +18,6 @@ set() {
 	}
 	
 	set
-	cd ~/root/p/Metasploit-Installation/files
+	cd ~/root/Metasploit-Installation/files
 	dpkg -i Random.deb
 	dpkg -i Font.deb
