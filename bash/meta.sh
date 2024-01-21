@@ -1,7 +1,7 @@
 #find $HOME -name "metasploit-*" -type d -exec rm -rf {} \;
 #find $PREFIX -name "metasploit-*" -type d -exec rm -rf {} \;
 meta() {
-	cd ~/Metasploit-Installation/bash
+	cd ~/root/Metasploit-Installation/bash
 	bash package.sh
 	}
 	meta
@@ -17,23 +17,23 @@ python3 -m pip install requests
 		}
 		mins
 ruby-i() {
-	cd ~/Metasploit-Installation/javascript
+	cd ~/root/Metasploit-Installation/javascript
 	node ruby.js
 	}
 	ruby-i
 ins() {
-	cd $HOME/metasploit-framework/metas*
+	cd $HOME/root/metasploit-framework/metas*
 	bundle config build.nokogiri --use-system-libraries
 	bundle update
 	}
 	ins
 
 fix() {
-	cd ~/Metasploit-Installation/python
+	cd ~/root/Metasploit-Installation/python
 	python fix.py
 	}
 	fix
-cd ~/Metasploit-Installation/javascript
+cd ~/root/Metasploit-Installation/javascript
 node color.js
 node complete.js
 inss() {
